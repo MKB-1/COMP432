@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from src.download_raw_data.classification_regression_datamodels import crdm
-from env import DIR
+from src.env import DIR
 
 
 def create_directory_if_not_exists(path):
