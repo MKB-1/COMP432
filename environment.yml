@@ -1,0 +1,11 @@
+name: comp-432-ml-project
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - urllib3
+  - jupyter
+  - requests
+  - selenium
