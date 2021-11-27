@@ -7,6 +7,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+data/
+data_processed/
+
 # C extensions
 *.so
 
