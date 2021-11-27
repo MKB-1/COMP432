@@ -2,6 +2,7 @@ name: comp-432-ml-project
 dependencies:
   - python=3.8
   - numpy
+  - scipy
   - pandas
   - scikit-learn
   - matplotlib

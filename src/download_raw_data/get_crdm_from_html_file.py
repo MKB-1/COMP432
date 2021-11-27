@@ -2,7 +2,7 @@ import re
 import time
 import requests
 from bs4 import BeautifulSoup
-from src.env import DIR
+from env import DIR
 
 
 def get_crdm_from_file():
