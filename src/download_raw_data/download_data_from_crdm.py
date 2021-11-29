@@ -69,7 +69,3 @@ def create_folder_download_files(crdm):
                     for chunk in f_target.iter_content(chunk_size=1024):
                         file.write(chunk)
 
-
-crdm_new = append_download_links_to_crdm(crdm)
-
-create_folder_download_files(crdm_new)

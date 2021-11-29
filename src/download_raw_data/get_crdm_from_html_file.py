@@ -48,8 +48,3 @@ def append_data_folder_url_to_crdm(crdm):
                 "data_folder_url"
             ] = f"https://archive.ics.uci.edu/ml/{match['href'].replace('../','')}"
     return copy
-
-
-# cr_data_models = get_crdm_from_file()
-# cr_data_models = append_data_folder_url_to_crdm(cr_data_models)
-# print(cr_data_models)
